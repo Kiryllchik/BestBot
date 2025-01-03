@@ -1,16 +1,17 @@
+import diary
+
+
 class User:
-    def __init__ (self, id, name, goals, reminders, status, diary):
+    def __init__ (self, id, name, goals, reminders, status, diarys):
         self.id = id
         self.name = name
         self.goals = goals
         self.reminders = reminders
         self.status = status
-        self.diary = diary
+        self.diarys = diary.Diary()
 
 
 
 
 
 
-if __name__ == '__main__':
-    pass
